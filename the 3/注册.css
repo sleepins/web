@@ -1,0 +1,33 @@
+*{
+    color: #526472;
+}
+
+label a:hover{
+    color:red;
+
+        
+}
+
+/*手机端*/
+@media screen and (max-width:768px ) {
+
+    body{
+        background-image: url(./注册（手机）.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:769px ) {
+    body{
+        background-image: url(./注册（pc）.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+}
