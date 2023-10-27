@@ -1,0 +1,216 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*手机端*/
+@media screen and (max-width:768px) {
+    * {
+
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(./背景（手机端）.jpg);
+    }
+
+
+    .login {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 10px;
+        margin-left: -87px;
+        margin-top: -200px;
+        width: 200px;
+        height: 400px;
+
+        background-color: rgba(82, 100, 114, 0.5);
+    }
+
+    .form {
+        display: flex;
+
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 44px;
+        height: 42px;
+    }
+
+    .logo svg {
+
+        margin-bottom: 100px;
+        margin: 2px auto 0 auto;
+        width: 44px;
+        height: 42px;
+    }
+
+    input {
+        position: relative;
+        left: 10px;
+        background-color: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+
+    }
+
+    input:focus {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    button {
+        position: relative;
+        left: 10px;
+        width: 180px;
+        background-color: #526472;
+        border-radius: 10px;
+    }
+
+    .reg-bar {
+
+        text-decoration: underline;
+        position: relative;
+        left: 10px;
+        top: 20px;
+        margin-top: 60px;
+        margin-left: 10px;
+        color: transparent;
+
+    }
+
+    .reg-bar a {
+        color: tomato;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+}
+
+
+/*非手机端*/
+@media screen and (min-width:769px) {
+    body {
+        background-image: url(./MoonPhase12.webp);
+        display: flex;
+    }
+
+    .login {
+
+        display: flex;
+        flex-wrap: nowrap;
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -450px;
+        margin-top: -200px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: #526472 solid 1px;
+        border-radius: 5px;
+
+    }
+
+
+
+    .form {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .logo svg {
+        border: 1px solid #526472;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        color: #526472;
+
+    }
+
+    .reg-bar a {
+        margin: 5px;
+        text-decoration: none;
+        color: #526472;
+    }
+
+
+
+
+    .form-item svg {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .form-item button {
+        height: 30px;
+        width: 162px;
+        background-color: #526472;
+        border-radius: 15px;
+
+    }
+
+
+
+
+
+
+    .form-item h3 {
+        display: inline;
+        color: #fff;
+        line-height: 30px;
+    }
+
+    input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background-color: transparent;
+    }
+
+    input:focus {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .login::before {
+        width: 400px;
+        height: 400px;
+        background-color: rgba(82, 100, 114, 0.5);
+        content: "";
+        background-image: url(./月球\(pc\)（透明）.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+
+    }
+
+    .decoration img {
+        width: 800px;
+        height: 400px;
+    }
+
+}
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
